@@ -2,7 +2,7 @@
 
 ## Objective
 
-This exercise deploys a simple Flask flash-sale checkout service to a **single-node Minikube cluster** using a Kubernetes **ReplicaSet**. It starts with 3 Pods, scales to 5, and demonstrates self-healing when one Pod is deleted.
+This exercise deploys a simple Flask flash-sale checkout service to a single-node Minikube cluster using a Kubernetes ReplicaSet. It starts with 3 Pods, scales to 5, and demonstrates self-healing when one Pod is deleted.
 
 ## Architecture
 
@@ -53,7 +53,7 @@ git --version
 
 Install only missing tools:
 
-- Python: install Python for Windows from <https://www.python.org/downloads/windows/> and enable **Add python.exe to PATH**.
+- Python: install Python for Windows from <https://www.python.org/downloads/windows/> and enable Add python.exe to PATH.
 - Docker: install Docker Desktop for Windows from <https://www.docker.com/products/docker-desktop/> and start it before using Minikube.
 - kubectl: run `winget install Kubernetes.kubectl`, or follow <https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/>.
 - Minikube: run `winget install Kubernetes.minikube`, or follow <https://minikube.sigs.k8s.io/docs/start/>.
