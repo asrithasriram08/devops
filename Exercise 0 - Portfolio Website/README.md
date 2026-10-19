@@ -39,7 +39,7 @@ Open http://localhost:8080 in a browser.
 ## Project Structure
 
 ```text
-Assignment 1 (Portfolio Website)/
+Exercise 0 - Portfolio Website/
 ├── index.html
 ├── style.css
 ├── script.js
