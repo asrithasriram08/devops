@@ -2,7 +2,7 @@
 
 ## Objective
 
-This exercise deploys a simple Flask flash-sale checkout service to a single-node Minikube cluster using a Kubernetes ReplicaSet. It starts with 3 Pods, scales to 5, and demonstrates self-healing when one Pod is deleted.
+This exercise deploys a simple Flask flash-sale checkout service to a single-node Minikube cluster using a Kubernetes ReplicaSet. It starts with 3 Pods, scales to 5, and demonstrates self-healing when one pod is deleted.
 
 ## Architecture
 
