@@ -34,7 +34,7 @@ The cart is intentionally an in-memory list. Each replica has its own list, so a
 ## Project Structure
 
 ```text
-Assignment 2 (Multi-Node Minikube)/
+Exercise 10 - Minikube Multi-Node Multi-App Minikube Deployment/
 ├── product_catalog.py
 ├── shopping_cart.py
 ├── Dockerfile.product
@@ -74,7 +74,7 @@ Reopen the terminal after installation. WSL is optional; PowerShell is sufficien
 Open PowerShell in this project folder:
 
 ```powershell
-cd "C:\path\to\devops\Assignment 2 (Multi-Node Minikube)"
+cd "C:\path\to\devops\Exercise 10 - Minikube Multi-Node Multi-App Minikube Deployment"
 ```
 
 Build both images:
@@ -290,7 +290,7 @@ Run these only after the cluster works and capture screenshots from your own mac
 
 1. Run the five environment check commands.
 2. Install only missing tools and start Docker Desktop.
-3. Open PowerShell in `Assignment 2 (Multi-Node Minikube)`.
+3. Open PowerShell in `Exercise 10 - Minikube Multi-Node Multi-App Minikube Deployment`.
 4. Confirm the nine project files are present.
 5. Optionally run each Flask app locally, one at a time, and stop it with `Ctrl+C`.
 6. Build `product-catalog:latest` with `Dockerfile.product`.

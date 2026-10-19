@@ -23,7 +23,7 @@ All five Pods should show the same node in `kubectl get pods -o wide`, because t
 ## Project Structure
 
 ```text
-Assignment 3 (Flask ReplicaSet Scaling)/
+Exercise 3 - Minikube Scaling Flask App with Replicasets/
 |-- ex3-flash-sale.py
 |-- Dockerfile
 |-- flashsale-replicaset.yaml
@@ -208,7 +208,7 @@ Capture screenshots from your own computer; do not fabricate command output.
 From the repository root, commit the new folder. The existing assignments remain untouched:
 
 ```powershell
-git add "Assignment 3 (Flask ReplicaSet Scaling)"
+git add "Exercise 3 - Minikube Scaling Flask App with Replicasets"
 git commit -m "feat: add Flask ReplicaSet scaling exercise"
 git push origin main
 ```
@@ -226,7 +226,7 @@ Verify locally with `git log --oneline --decorate -1`, then refresh GitHub and o
 
 1. Run the five environment check commands.
 2. Install only missing tools and start Docker Desktop.
-3. Open PowerShell in this repository and create/open `Assignment 3 (Flask ReplicaSet Scaling)`.
+3. Open PowerShell in this repository and create/open `Exercise 3 - Minikube Scaling Flask App with Replicasets`.
 4. Confirm the five project files are present.
 5. Build `flashsale:1.0` with Docker.
 6. Stop and delete an old Minikube cluster if necessary.
@@ -242,7 +242,7 @@ Verify locally with `git log --oneline --decorate -1`, then refresh GitHub and o
 16. Run `kubectl get pods -o wide` and confirm one node for every Pod.
 17. Capture the evidence screenshots.
 18. Create the GitHub repository if needed.
-19. Run `git add "Assignment 3 (Flask ReplicaSet Scaling)"`.
+19. Run `git add "Exercise 3 - Minikube Scaling Flask App with Replicasets"`.
 20. Commit with `git commit -m "feat: add Flask ReplicaSet scaling exercise"`.
 21. Push with `git push origin main`.
 22. Verify the files, commit, and timestamp on GitHub.

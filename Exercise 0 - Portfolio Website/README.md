@@ -115,7 +115,7 @@ Docker packages the static site into an image, while Nginx serves the HTML, CSS,
 4. In PowerShell, move into this project folder and initialize Git:
 
    ```powershell
-   cd "C:\path\to\Assignment 1 (Portfolio Website)"
+   cd "C:\path\to\Exercise 0 - Portfolio Website"
    git init
    git branch -M main
    ```
