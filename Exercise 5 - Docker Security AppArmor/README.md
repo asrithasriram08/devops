@@ -23,4 +23,6 @@ python apply_apparmor.py
 python test_restricted_actions.py
 ```
 
-The test attempts to read `/etc/shadow`; AppArmor should deny the operation.
+The test attempts to read `/etc/shadow` and execute `/bin/sh`; AppArmor should
+deny both operations. The test exits with failure if either operation succeeds
+or fails for an unrelated reason.

@@ -17,12 +17,23 @@ docker network inspect my-bridge-net
 ```
 
 The password is a local lab value only; it must not be reused as a credential.
-The Flask container can resolve the other containers by name:
+The Flask container can resolve the other containers by name and verify TCP
+connectivity to the service ports:
 
 ```powershell
-docker exec flask getent hosts mysql
-docker exec flask getent hosts redis
+docker exec flask python -c "import socket; [(socket.create_connection((host, port), 5).close(), print(f'{host}:{port} reachable')) for host, port in [('mysql', 3306), ('redis', 6379)]]"
 ```
+
+Expected output includes:
+
+```text
+mysql:3306 reachable
+redis:6379 reachable
+```
+
+Run the checks after the MySQL container has finished initializing. A
+successful connection verifies that the containers can communicate over the
+user-defined bridge network; the Flask API itself does not use MySQL or Redis.
 
 ## Clean up
 
