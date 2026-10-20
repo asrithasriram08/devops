@@ -14,7 +14,13 @@ try:
     if "apparmor=my-apparmor-profile" not in security_options:
         raise SystemExit("The requested AppArmor profile was not applied")
 
-    exit_code, output = container.exec_run("cat /etc/shadow")
+    exit_code, output = container.exec_run(
+        [
+            "/usr/local/bin/python",
+            "-c",
+            "with open('/etc/shadow') as shadow: shadow.read()",
+        ]
+    )
     decoded_output = output.decode(errors="replace")
     print(f"Attempt to read /etc/shadow: exit={exit_code}, output={decoded_output}")
     if exit_code == 0:
