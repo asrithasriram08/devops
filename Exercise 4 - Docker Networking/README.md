@@ -41,3 +41,13 @@ user-defined bridge network; the Flask API itself does not use MySQL or Redis.
 docker rm -f flask mysql redis
 docker network rm my-bridge-net
 ```
+
+## Execution Evidence / Screenshots
+
+![Exercise 4 screenshot 1](screenshots/exercise_4_1.png)
+![Exercise 4 screenshot 2](screenshots/exercise_4_2.png)
+![Exercise 4 screenshot 3](screenshots/exercise_4_3.png)
+![Exercise 4 screenshot 4](screenshots/exercise_4_4.png)
+![Exercise 4 screenshot 5](screenshots/exercise_4_5.png)
+![Exercise 4 screenshot 6](screenshots/exercise_4_6.png)
+![Exercise 4 screenshot 7](screenshots/exercise_4_7.png)

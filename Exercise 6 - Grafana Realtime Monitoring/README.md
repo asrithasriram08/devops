@@ -34,3 +34,13 @@ Open Prometheus at `http://localhost:9090` and Grafana at
 ```powershell
 docker rm -f prometheus grafana
 ```
+
+## Execution Evidence / Screenshots
+
+![Exercise 6 screenshot 1](screenshots/exercise_6_1.png)
+![Exercise 6 screenshot 2](screenshots/exercise_6_2.png)
+![Exercise 6 screenshot 3](screenshots/exercise_6_3.png)
+![Exercise 6 screenshot 4](screenshots/exercise_6_4.png)
+![Exercise 6 screenshot 5](screenshots/exercise_6_5.png)
+![Exercise 6 screenshot 6](screenshots/exercise_6_6.png)
+![Exercise 6 screenshot 7](screenshots/exercise_6_7.png)

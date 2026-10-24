@@ -26,3 +26,10 @@ personal access tokens.
 ```powershell
 docker compose down
 ```
+
+## Execution Evidence / Screenshots
+
+![Exercise 7 screenshot 1](screenshots/exercise_7_1.png)
+![Exercise 7 screenshot 2](screenshots/exercise_7_2.png)
+![Exercise 7 screenshot 3](screenshots/exercise_7_3.png)
+![Exercise 7 screenshot 4](screenshots/exercise_7_4.png)

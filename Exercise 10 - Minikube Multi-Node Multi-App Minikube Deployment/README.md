@@ -317,3 +317,14 @@ Run these only after the cluster works and capture screenshots from your own mac
 27. Add that URL with `git remote add origin <MY_GITHUB_REPOSITORY_URL>`.
 28. Push with `git push -u origin main`.
 29. Verify the repository files and commit history on GitHub.
+
+## Execution Evidence / Screenshots
+
+![Exercise 10 screenshot 1](screenshots/exercise_10_1.png)
+![Exercise 10 screenshot 2](screenshots/exercise_10_2.png)
+![Exercise 10 screenshot 3](screenshots/exercise_10_3.png)
+![Exercise 10 screenshot 4](screenshots/exercise_10_4.png)
+![Exercise 10 screenshot 5](screenshots/exercise_10_5.png)
+![Exercise 10 screenshot 6](screenshots/exercise_10_6.png)
+![Exercise 10 screenshot 7](screenshots/exercise_10_7.png)
+![Exercise 10 screenshot 8](screenshots/exercise_10_8.png)

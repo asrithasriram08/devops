@@ -26,3 +26,12 @@ python test_restricted_actions.py
 The test attempts to read `/etc/shadow` and execute `/bin/sh`; AppArmor should
 deny both operations. The test exits with failure if either operation succeeds
 or fails for an unrelated reason.
+
+## Execution Evidence / Screenshots
+
+![Exercise 5 screenshot 1](screenshots/exercise_5_1.png)
+![Exercise 5 screenshot 2](screenshots/exercise_5_2.png)
+![Exercise 5 screenshot 3](screenshots/exercise_5_3.png)
+![Exercise 5 screenshot 4](screenshots/exercise_5_4.png)
+![Exercise 5 screenshot 5](screenshots/exercise_5_5.png)
+![Exercise 5 screenshot 6](screenshots/exercise_5_6.png)

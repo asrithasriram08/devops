@@ -21,3 +21,11 @@ Run the same checks locally with:
 python -m pip install -r requirements.txt
 python -m unittest discover -s .
 ```
+
+## Execution Evidence / Screenshots
+
+![Exercise 9 screenshot 1](screenshots/exercise_9_1.png)
+![Exercise 9 screenshot 2](screenshots/exercise_9_2.png)
+![Exercise 9 screenshot 3](screenshots/exercise_9_3.png)
+![Exercise 9 screenshot 4](screenshots/exercise_9_4.png)
+![Exercise 9 screenshot 5](screenshots/exercise_9_5.png)
