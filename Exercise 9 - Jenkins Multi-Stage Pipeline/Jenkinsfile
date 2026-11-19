@@ -1,23 +1,30 @@
+
 pipeline {
     agent any
 
     stages {
         stage('Build') {
             steps {
-                sh 'python3 -m pip install --user --break-system-packages -r requirements.txt'
+                dir('Exercise 9 - Jenkins Multi-Stage Pipeline') {
+                    sh 'python3 -m pip install --user --break-system-packages -r requirements.txt'
+                }
             }
         }
+
         stage('Test') {
             steps {
-                sh 'python3 -m unittest discover -s .'
+                dir('Exercise 9 - Jenkins Multi-Stage Pipeline') {
+                    sh 'python3 -m unittest discover -s .'
+                }
             }
         }
+
         stage('Deploy') {
             steps {
                 sh '''
                     rm -rf "$WORKSPACE/python-app-deploy"
                     mkdir -p "$WORKSPACE/python-app-deploy"
-                    cp app.py requirements.txt "$WORKSPACE/python-app-deploy/"
+                    cp "$WORKSPACE/Exercise 9 - Jenkins Multi-Stage Pipeline/app.py" "$WORKSPACE/Exercise 9 - Jenkins Multi-Stage Pipeline/requirements.txt" "$WORKSPACE/python-app-deploy/"
                 '''
             }
         }
